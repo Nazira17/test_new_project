@@ -1,0 +1,7 @@
+Переводы - resource-id	kz.homecredit.ibank:id/smallLabel
+Между своими счетами - kz.homecredit.ibank:id/itemText1ы
+Счет списания - kz.homecredit.ibank:id/fromAccountText
+На счёт - kz.homecredit.ibank:id/toAccountText
+Сумма - xpath	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.EditText
+Описание - xpath	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.EditText
+ПЕРЕВЕСТИ -  class - android.widget.Button resource-id - kz.homecredit.ibank:id/payButton
