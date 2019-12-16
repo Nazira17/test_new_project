@@ -5,3 +5,63 @@
 Сумма - xpath	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.EditText
 Описание - xpath	/hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.EditText
 ПЕРЕВЕСТИ -  class - android.widget.Button resource-id - kz.homecredit.ibank:id/payButton
+//////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+
+
+text- Главная
+resource-id - kz.homecredit.ibank:id/mnuHome
+\\\\\\\\\\\\\\\\\\\\\\\\
+text- Переводы
+resource-id - kz.homecredit.ibank:id/mnuTransfers
+
+text- Между своими счетами
+resource-id	kz.homecredit.ibank:id/itemText1
+
+text- С карты на карту любого банка
+resource-id- kz.homecredit.ibank:id/itemText1
+
+text- На карту клиента Home Credit
+resource-id- kz.homecredit.ibank:id/itemText1
+
+text-	С карты другого банка
+resource-id- kz.homecredit.ibank:id/itemText1
+
+text- На текущий счет любого банка
+resource-id- kz.homecredit.ibank:id/itemText1
+
+\\\\\\\\\\\\\\\\\\\\\\\
+text- Между своими счетами
+resource-id	kz.homecredit.ibank:id/itemText1
+
+
+text- Счет списания
+resource-id- kz.homecredit.ibank:id/fromAccountText
+
+text- На счёт
+resource-id- kz.homecredit.ibank:id/toAccountText
+
+text- Сумма
+resource-id- kz.homecredit.ibank:id/amountInput
+xpath- /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[3]/android.widget.LinearLayout/android.widget.EditText
+
+
+text- Описание (необязательно)
+resource-id- kz.homecredit.ibank:id/descriptionInput
+xpath- /hierarchy/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.widget.FrameLayout/android.view.ViewGroup/android.widget.FrameLayout/android.widget.RelativeLayout/android.widget.RelativeLayout/android.widget.ScrollView/android.widget.LinearLayout/android.widget.FrameLayout/android.widget.LinearLayout/android.widget.LinearLayout[4]/android.widget.LinearLayout/android.widget.EditText
+
+
+
+
+
+
+
+
+
+\\\\\\\\\\\\\\\\\\\\\\\\\
+text- Платежи
+resource-id - kz.homecredit.ibank:id/mnuPaymentsTransfers
+
+text- Продукты
+
+text- Меню
+resource-id- kz.homecredit.ibank:id/mnuMore
