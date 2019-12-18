@@ -1,6 +1,7 @@
 import pytest
 from appium import webdriver
 import os
+# import time
 
 
 @pytest.fixture(scope='session')
@@ -21,3 +22,10 @@ def driver():
     return driver
     # driver.quit()
     # driver.set_page_load_timeout(6000)
+
+
+# @pytest.fixture()
+# def back_transfer():
+#     driver.find_element_by_id("kz.homecredit.ibank:id/mnuTransfers").click()
+#     time.sleep(5)
+#     return back_transfer
