@@ -1,9 +1,9 @@
 import time
 
 
-def test_transfer_between_owned(driver):
-    driver.find_element_by_id("kz.homecredit.ibank:id/mnuTransfers").click()
-    time.sleep(5)
+def test_transfer_between_owned(driver, back_transfer):
+    back_transfer()
+    print(1)
     driver.find_element_by_android_uiautomator(
         'new UiSelector().text("Между своими счетами")'
     ).click()
