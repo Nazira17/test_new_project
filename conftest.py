@@ -1,7 +1,7 @@
 import pytest
 from appium import webdriver
 import os
-import time
+# import time
 
 
 @pytest.fixture(scope='session')
@@ -11,7 +11,7 @@ def driver():
     desired_cap["platformName"] = "Android"
     desired_cap["app"] = os.path.abspath(
         os.path.abspath
-        ("/home/nazira/test_project/hck-2.1.58_final.apk")
+        ("/home/nazira/test_new_project/hck-2.1.58_final.apk")
     )
     desired_cap["appPackage"] = "kz.homecredit.ibank"
     desired_cap["appActivity"] = (
@@ -24,8 +24,11 @@ def driver():
     # driver.set_page_load_timeout(6000)
 
 
-@pytest.fixture(scope="session")
-def back_transfer():
-    driver.find_element_by_id("kz.homecredit.ibank:id/mnuTransfers").click()
-    time.sleep(5)
-    return back_transfer
+# def main_page(driver):
+# #     driver.
+# def transfer(globals):
+#     def back_transfer(driver):
+#         driver.find_element_by_id(
+#             "kz.homecredit.ibank:id/mnuTransfers").click()
+#         time.sleep(5)
+#     return back_transfer
